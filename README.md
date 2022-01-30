@@ -35,7 +35,7 @@ Postman-Token: 55f61d85-b550-d024-2b6a-99ef5da60c64
 
 In addition to the solution a test solution has been added to cover all the possible code paths in the service; testing all possible scenarios.
 
-For this type of problem instead of a database a Dictionary has been used. The class responsible for this can be found in DependeciesManager/Models/SingletonDB.
+For this type of problem instead of a database a Dictionary has been used. The class responsible for this can be found in `DependeciesManager/Models/SingletonDB`.
 
 
 
