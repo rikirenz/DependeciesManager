@@ -28,7 +28,7 @@ namespace DependeciesManager.Controllers
 					curr_instance.db.Add(d, new HashSet<String>());
 				}
 				if (d.Equals(item) || this.GetDependencies(d).Contains(item)) {
-					// Trying to add circular dependency
+					// Error, trying to add circular dependency
 					return BadRequest();
 				}
 			}
